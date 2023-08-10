@@ -29,7 +29,7 @@ red "1. This Might Be Illegal For Github TOS (I Didn't Face Any Issue Till Now) 
 red "2. It's May Not Be Stable Completely !"
 read -rp "Do You Accept ？ [Y/N]：" yesno
 
-if [[ $yesno =~ "Y"|"y" ]]; then
+if [[ $yesno =~ "Y"|"y"|"" ]]; then
     rm -f web config.json
     yellow "Start Installing..."
     wget -O temp.zip https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
