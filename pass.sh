@@ -19,8 +19,8 @@ yellow() {
 
 clear
 echo "#############################################################"
-echo -e "#              ${RED} Deepnote / Github Xray 一 Installer Script${PLAIN}                 #"
-echo -e "# ${GREEN}Froker${PLAIN}: Edited By PikachuJP                                  #"
+echo -e "${RED} Deepnote / Github Xray 一 Installer Script${PLAIN}"
+echo -e "${GREEN}Froker${PLAIN}: Edited By PikachuJP"
 echo "#############################################################"
 echo ""
 
@@ -88,5 +88,4 @@ nohup ./web run &>/dev/null &
 green "Github Codespaces X2ray Core!"
 yellow "Please Config Project Before Using It!"
 yellow "Project Edited By PikachuJP!"
-echo ""
 yellow "Running !!"
