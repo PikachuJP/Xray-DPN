@@ -32,7 +32,7 @@ echo ""
 rm -f web config.json
 yellow "Start Installing..."
 wget -O temp.zip https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
-unzip temp.zip
+unzip -O temp.zip
 rm -f temp.zip
 mv v2ray web
 uuid="8d4a8f5e-c2f7-4c1b-b8c0-f8f5a9b6c384"
