@@ -19,8 +19,8 @@ yellow() {
 
 clear
 echo "#############################################################"
-echo -e "${RED} Deepnote / Github Xray 一 Installer Script${PLAIN}"
-echo -e "${GREEN}Froker${PLAIN}: Edited By Freedom"
+echo -e "${RED} Shell Xray 一 Installer Script${PLAIN}"
+echo -e "${GREEN} Froker${PLAIN} : Edited By Freedom"
 echo "#############################################################"
 echo ""
 
